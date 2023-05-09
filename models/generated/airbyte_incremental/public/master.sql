@@ -6,7 +6,7 @@
 ) }}
 -- Final base SQL model
 -- depends_on: {{ ref('master_ab3') }}
-{% set customer_domains = ["hpe.com", "arubanetworks.com", "hpe.hr","hpecds.com","jpn.hpe.com","hpecds.com"] %}
+{% set customer_domains = ['hpe.com','arubanetworks.com','hpe.hr','hpecds.com','jpn.hpe.com','hpecds.com'] %}
 
 select
     _id,
